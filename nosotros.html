@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmobilaria BGL</title>
+    <link rel="stylesheet" type="text/css" href="CSS/estilos.css">
+    <link rel="icon" href="IMG/BGL.ico">
+    <link rel="stylesheet" type="text/css" href="BOOTSTRAP/css/bootstrap.css">
+    <script src="JQUERY/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 20) {
+                    $('.scrollup').fadeIn();
+                } else {
+                    $('.scrollup').fadeOut();
+                }
+            });
+
+            $('.scrollup').click(function(){
+                $("html, body").animate({ scrollTop: 0 }, 600);
+                return false;
+            });
+
+        });
+</script>
+</head>
+<body class="fondo">
+   <div class="jumbotron text-center">
+        <a href="pagina01.html" class="logo"></a>
+        <h1>BUSCA TU HOGAR IDEAL</h1>
+        <h6>Somos una empresa que desarrolla proyectos inmobiliarios buscando en menor impacto ambiental, y buscando la innovación en sus proyectos.</h6>
+   </div>       
+   <div class="btn-group">
+    <button type="button" class="btn btn-primary"><a href="../PROYECTO PAGINA WEB/pagina01.html" class="link">INICIO</a></button>
+     <button type="button" class="btn btn-primary"><a href="../PROYECTO PAGINA WEB/nosotros.html" class="link">NOSOTROS</a></button>
+     <button type="button" class="btn btn-primary"><a href="../PROYECTO PAGINA WEB/ubicacion.html" class="link">UBICACION</a></button>
+     <button type="button" class="btn btn-primary"><a href="../PROYECTO PAGINA WEB/contacto.html" class="link">CONTACTO</a></button>
+        
+   </div>
+   <section id="contenido">
+    <article id="empacadora">
+            <h1>Nosotros</h1>
+            <hr>
+            <article id="mision">
+                <h2>Misión</h2>
+                <span>Somos una empresa dedicados al servicio de acondicionamiento de productos agrícolas frescos con destino a exportación, con al misión de lograr la satisfacción de nuestros clientes a través del cumplimiento de los estándares de calidad, inocuidad, seguridad, responsabilidad social y ambiental.</span>
+            </article>
+            <article id="vision">
+                <h2>Vision</h2>
+                <span>Ser reconocidos internacionalmente como la mejor Empacadora Peruana; y que nuestro nombre sea sinónimo de Calidad y Seguridad.</span>
+            </article>
+            <hr>
+            <h1>Actualidad</h1>
+            <p>Nuestra empresa fue fundada en el año 1982 por un grupo de agricultores preactivos del valle de Huaral.
+            La empresa en  sus  inicios se dedicaba al  acopio  y  proceso de frutas y hortalizas  de los productores del sector, cuyos productos tenían como destino el mercado nacional, los cuales eran canalizados a los principales autoservicios.
+            A partir del año 2000 se comienza a exportar en su mayoría cítricos al mercado Europeo y canadiense; a partir del 2002 se comienza a exporta paltas a Europa y en el 2007 se inicia las exportaciones de cítricos al mercado de EEUU.
+            Actualmente la empresa tiene implementado el sistema de calidad BRC, que es una norma que  asegura la calidad, legalidad e inocuidad de los productos que procesamos,  es de este modo que expresamos nuestro compromiso por cumplir con las exigencias y normativas de los mercados internacionales para el beneficio del consumidor final de nuestros productos.</p>
+            <hr>
+    </article>
+    <a href="#" class="scrollup"></a>
+    </section>
+    
+</body>
+</html>
