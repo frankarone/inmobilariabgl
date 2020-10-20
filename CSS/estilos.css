@@ -1,0 +1,85 @@
+/*estilos bgl*/
+    .logo {
+    display: block;
+    background: transparent url(../IMG/LOGO\ BGL.png)no-repeat top left;
+    margin-top: -50px;
+    width: 211px;
+    height: 167px;
+    float:left;   
+    text-indent: 100%;  
+    white-space: nowrap;
+    }
+    .slideshow-wrapper {
+        margin:0 auto;
+        position:relative;
+        width:960px;
+        height:500px;
+    }
+    #fullwidth-slider {
+        float:left;
+        width:100%;
+    }
+    #fullwidth-slider #slider {
+        left: -480px;
+        position: absolute;z-index: -10;margin: 0;
+        width: 1920px;
+        overflow:hidden;
+        height:500px;
+    }
+    #fullwidth-slider #slider li {
+        height:452px;
+        position:relative;
+        text-align:center;
+        display:inline;
+        width:1920px;
+    }
+    .slide-content-wrapper {
+        position:absolute;
+        top:0px;
+        left:0; 
+        width:100%;
+        height:90px;
+    }
+    .slide-content {
+        margin:0 auto;
+        padding-top:38px;
+        width:960px;
+        text-align:left;
+        position:relative;
+        z-index:908;    
+    }    
+    .center {
+        margin: auto;
+        width: 60%;
+        border: 3px solid #73AD21;
+        padding: 10px;
+      }
+    .fondo {
+        background-color:#e9ecef;
+      }
+    .link{
+        color: #ffffff;
+    }
+    section#contenido {
+        width: 900px;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+    article#empacadora {
+        width: 900px;
+        margin: 0 auto;
+    }
+    article#mision {
+        display: inline-block;
+        width: 366px;
+        padding-right: 64px;
+        margin-left: 20px;
+        border-right: 1px dashed #c3c0b1;
+    }
+    article#vision {
+        display: inline-block;
+        width: 366px;
+        padding-left: 64px;
+        vertical-align: top;
+    }
+   
